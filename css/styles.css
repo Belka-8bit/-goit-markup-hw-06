@@ -851,3 +851,29 @@ p {
   opacity: 1;
   visibility: visible;
 }
+
+.header_change {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: var(--primary-section-color);
+  margin: 0 auto;
+  border-bottom: 1px solid #2f303a;
+}
+
+.nav__change {
+  color: var(--tittle-text-color);
+  display: inline-flex;
+  position: relative;
+  padding: 32px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.current__change {
+  color: var(--accent-color);
+}
