@@ -749,7 +749,6 @@ p {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
-  margin-bottom: 4px;
 }
 
 .modal__input {
@@ -758,7 +757,6 @@ p {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 10px;
 }
 
 .modal__textarea {
