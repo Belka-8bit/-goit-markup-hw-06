@@ -770,6 +770,13 @@ p {
   border-radius: 4px;
 }
 
+.modal__textarea::placeholder {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: var(--secondary-text-color);
+}
+
 .modal__checkbox {
   font-size: 14px;
   line-height: 1.71;
