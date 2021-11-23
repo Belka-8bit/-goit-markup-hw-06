@@ -729,7 +729,6 @@ p {
 }
 
 .modal__form {
-  display: inline-flex;
   flex-direction: column;
   padding: 40px 40px;
 }
