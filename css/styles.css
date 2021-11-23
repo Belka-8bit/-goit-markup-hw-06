@@ -853,27 +853,28 @@ p {
 }
 
 .header_change {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1;
   background-color: var(--primary-section-color);
-  margin: 0 auto;
   border-bottom: 1px solid #2f303a;
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
+}
+
+.header__inner__change {
+  color: var(--tittle-text-color);
+  transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
 .nav__change {
   color: var(--tittle-text-color);
-  display: inline-flex;
-  position: relative;
-  padding: 32px 0;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+  transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
 .current__change {
   color: var(--accent-color);
+  transition: color var(--transition-duration) var(--transition-timing-function);
+}
+
+.header__address__change {
+  color: var(--tittle-text-color);
+  transition: color var(--transition-duration) var(--transition-timing-function);
 }
