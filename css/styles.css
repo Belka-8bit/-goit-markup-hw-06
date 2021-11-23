@@ -820,6 +820,8 @@ p {
     visibility var(--transition-duration) var(--transition-timing-function);
   opacity: 0;
   visibility: hidden;
+  text-decoration: none;
+  cursor: pointer;
 }
 .back__top::after {
   content: "\f077";
@@ -830,8 +832,8 @@ p {
   line-height: 50px;
   color: #fff;
 }
-.back__top:hover {
-  cursor: pointer;
+.back__top:hover,
+.back__top:focus {
   background-color: var(--accent-color);
 }
 .back__top.show {
