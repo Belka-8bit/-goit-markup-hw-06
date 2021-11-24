@@ -875,6 +875,6 @@ p {
 }
 
 .header__address__change {
-  color: var(--tittle-text-color);
+  color: var(--footer-address-color);
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
