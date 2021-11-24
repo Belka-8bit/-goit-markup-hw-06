@@ -878,3 +878,25 @@ p {
   color: var(--footer-address-color);
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  opacity: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--icon-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--secondary-text-color);
+}
