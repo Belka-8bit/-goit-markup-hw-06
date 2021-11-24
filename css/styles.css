@@ -853,7 +853,7 @@ p {
 }
 
 .header_change {
-  background-color: var(--primary-section-color);
+  background-color: rgba(47, 48, 58, 0.8);
   border-bottom: 1px solid #2f303a;
   transition: background-color var(--transition-duration)
     var(--transition-timing-function);
