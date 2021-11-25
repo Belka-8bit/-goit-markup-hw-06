@@ -454,8 +454,6 @@ p {
 
 .clients__list {
   display: flex;
-  margin: 0 auto;
-  border: none;
 }
 
 .clients__item:not(:last-child) {
