@@ -453,7 +453,6 @@ p {
 /* Clients */
 
 .clients__list {
-  background-color: var(--primary-background-color);
   display: flex;
   margin: 0 auto;
   border: none;
@@ -852,6 +851,8 @@ p {
   visibility: visible;
 }
 
+/* Header change */
+
 .header_change {
   background-color: rgba(47, 48, 58, 0.9);
   border-bottom: 1px solid rgba(47, 48, 58, 0.9);
@@ -878,6 +879,8 @@ p {
   color: var(--footer-address-color);
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
+
+/* Scrollbar */
 
 /* width */
 ::-webkit-scrollbar {
