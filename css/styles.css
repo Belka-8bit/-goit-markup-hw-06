@@ -768,14 +768,6 @@ p {
   transform: translateY(-50%);
 }
 
-.modal__input:hover {
-  border-color: var(--accent-color);
-}
-
-.modal__input:hover + .input__icon {
-  fill: var(--accent-color);
-}
-
 .input__container:focus-within {
   fill: var(--accent-color);
   border-color: var(--accent-color);
