@@ -741,7 +741,7 @@ p {
 }
 
 .modal__label {
-  display: block;
+  display: inline-block;
   font-size: 12px;
   margin-bottom: 4px;
   line-height: 1.16;
@@ -751,7 +751,6 @@ p {
 
 .input__container {
   position: relative;
-  display: block;
 }
 
 .modal__input {
