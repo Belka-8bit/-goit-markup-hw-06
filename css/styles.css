@@ -765,7 +765,7 @@ p {
 .input__icon {
   position: absolute;
   top: 50%;
-  left: 15px;
+  left: 12px;
   transform: translateY(-50%);
   cursor: pointer;
 }
