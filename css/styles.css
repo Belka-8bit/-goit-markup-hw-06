@@ -825,7 +825,7 @@ p {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal__checkbox {
+.checkbox__text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
