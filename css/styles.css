@@ -792,13 +792,9 @@ p {
   border-color: var(--accent-color);
 }
 
-.modal__input:focus,
-.modal__input:focus-visible {
+.modal__label:focus-within > .modal__input,
+.modal__label:focus-within > .input__icon {
   border-color: var(--accent-color);
-}
-
-.modal__input:focus + .input__icon,
-.modal__input:focus-visible + .input__icon {
   fill: var(--accent-color);
 }
 
