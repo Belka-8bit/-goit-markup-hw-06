@@ -414,64 +414,45 @@
         </button>
         <form class="modal__form">
           <p class="modal__text">Оставьте свои данные, мы вам перезвоним</p>
-          <label class="modal__label" for="user_name">
+          <label class="modal__label">
             <span class="label__text">Имя</span>
-            <input
-              class="modal__input"
-              type="text"
-              name="user_name"
-              id="user_name"
-              required
-            />
+            <input class="modal__input" type="text" name="user_name" required />
             <svg class="input__icon" width="18" height="18">
               <use href="./images/icons.svg#user"></use>
             </svg>
           </label>
-          <label class="modal__label" for="phone_number">
+          <label class="modal__label">
             <span class="label__text">Телефон</span>
             <input
               class="modal__input"
               type="tel"
               name="phone_number"
-              id="phone_number"
-              placeholder=" "
               required
             />
             <svg class="input__icon" width="18" height="18">
               <use href="./images/icons.svg#mobile"></use>
             </svg>
           </label>
-          <label class="modal__label" for="email">
+          <label class="modal__label">
             <span class="label__text">Почта</span>
-            <input
-              class="modal__input"
-              type="email"
-              name="email"
-              id="email"
-              placeholder=" "
-              required
-            />
+            <input class="modal__input" type="email" name="email" required />
             <svg class="input__icon" width="18" height="18">
               <use href="./images/icons.svg#email"></use>
             </svg>
           </label>
-          <label class="modal__label" for="comment">
+          <label class="modal__label">
             <span class="label__text">Комментарий</span>
             <textarea
               class="modal__textarea"
               name="comment"
               rows="10"
-              id="comment"
               placeholder="Введите текст"
             ></textarea>
           </label>
-          <label class="modal__checkbox" for="policy">
-            <input
-              class="modal__policy"
-              type="checkbox"
-              name="policy"
-              id="policy"
-            /><span>Соглашаюсь с рассылкой и принимаю</span>
+          <label class="modal__checkbox">
+            <input class="modal__policy" type="checkbox" name="policy" /><span
+              >Соглашаюсь с рассылкой и приним</span
+            >
             <a class="modal__contract" href="/">Условия договора</a></label
           >
           <button class="modal__submit" type="submit">Отправить</button>
