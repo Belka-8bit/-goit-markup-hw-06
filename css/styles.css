@@ -825,16 +825,48 @@ p {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal__policy {
-  appearance: none;
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--primary-text-color);
-  border-radius: 2px;
+.modal__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-.modal__policy:checked {
-  background-color: var(--accent-color);
+.modal__policy {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.icon__check {
+  margin-right: 7px;
+  border: 2px solid var(--primary-text-color);
+  border-radius: 4px;
+  fill: var(--primary-background-color);
+}
+
+.modal__policy:checked + .icon__check {
+  margin-right: 7px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  fill: var(--accent-color);
+}
+
+.modal__label:focus-within {
+  outline: 2px solid var(--accent-color);
+}
+
+.modal__policy:focus-visible + .icon__check,
+.modal__policy:focus + .icon__check {
+  fill: var(--accent-color);
 }
 
 .checkbox__text {
