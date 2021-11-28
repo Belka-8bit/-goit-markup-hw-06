@@ -226,18 +226,21 @@ p {
 
 /* Buttons */
 
-.hero__btn {
-  background-color: var(--accent-color);
-  color: var(--tittle-text-color);
+.btn {
   font-family: inherit;
-  padding: 10px 32px;
-  min-width: 200px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  border: 0;
-  border-radius: 4px;
+  color: var(--tittle-text-color);
+  border: none;
+  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -691,17 +694,11 @@ p {
 }
 
 .footer__btn {
-  font-family: inherit;
-  width: 200px;
-  height: 50px;
   margin-left: 12px;
-  font-weight: 700;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--tittle-text-color);
-  border: none;
-  background-color: var(--accent-color);
-  border-radius: 4px;
+}
+
+.btn__icon {
+  margin-left: 10px;
 }
 
 /* Modal */
@@ -885,7 +882,8 @@ p {
   border-radius: 2px;
   background-color: var(--primary-background-color);
   transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
+      var(--transition-timing-function),
+    border-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .modal__policy:checked + .icon__check {
@@ -913,20 +911,8 @@ p {
 }
 
 .modal__submit {
-  display: flex;
-  color: var(--tittle-text-color);
-  background-color: var(--accent-color);
+  display: block;
   margin: 0 auto;
-  min-width: 200px;
-  padding: 10px 55px;
-  font-family: inherit;
-  font-weight: 700;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
-  border-radius: 4px;
 }
 
 /* Back to top button */
