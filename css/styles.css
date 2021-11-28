@@ -671,6 +671,25 @@ p {
   background-color: var(--accent-color);
 }
 
+.footer__form {
+  margin-left: 93px;
+}
+
+.footer__input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.footer__input::placeholder {
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* Modal */
 
 .backdrop {
@@ -851,6 +870,8 @@ p {
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
   background-color: var(--primary-background-color);
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .modal__policy:checked + .icon__check {
