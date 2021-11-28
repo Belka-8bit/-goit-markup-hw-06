@@ -860,6 +860,12 @@ p {
   background-color: var(--accent-color);
 }
 
+.modal__policy:focus-visible + .icon__check,
+.modal__policy:focus + .icon__check {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
 .checkbox__text {
   font-size: 14px;
   line-height: 1.71;
