@@ -827,6 +827,14 @@ p {
 
 .modal__policy {
   appearance: none;
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--primary-text-color);
+  border-radius: 2px;
+}
+
+.modal__policy:checked {
+  background-color: var(--accent-color);
 }
 
 .checkbox__text {
