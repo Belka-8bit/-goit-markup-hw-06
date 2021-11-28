@@ -893,9 +893,8 @@ p {
   background-color: var(--accent-color);
 }
 
-.modal__policy:focus-visible + .icon__check {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+.modal__checkbox:focus-within {
+  outline: 1px solid var(--accent-color);
 }
 
 .checkbox__text {
