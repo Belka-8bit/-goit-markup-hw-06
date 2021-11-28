@@ -690,6 +690,20 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer__btn {
+  font-family: inherit;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--tittle-text-color);
+  border: none;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+
 /* Modal */
 
 .backdrop {
