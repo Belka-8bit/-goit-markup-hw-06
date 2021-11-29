@@ -783,7 +783,7 @@ p {
 .modal__label {
   position: relative;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
   color: var(--secondary-text-color);
 }
 
@@ -802,7 +802,6 @@ p {
   height: 40px;
   padding-left: 42px;
   border-radius: 4px;
-  margin-bottom: 10px;
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition: border-color var(--transition-duration)
@@ -894,8 +893,8 @@ p {
   background-color: var(--accent-color);
 }
 
-.modal__checkbox:focus-within {
-  outline: 1px solid var(--accent-color);
+.modal__policy:focus-within + .icon__check {
+  border: 2px solid var(--accent-color);
 }
 
 .checkbox__text {
